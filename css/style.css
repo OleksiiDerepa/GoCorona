@@ -246,6 +246,16 @@ body {
         left: 0;
     }
 
+    .header:target .menu__body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 80px;
+        width: 100%;
+        background-color: #fff;
+    }
+
     .menu__list {
         flex-direction: column;
         justify-content: center;
