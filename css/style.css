@@ -21,8 +21,11 @@ body {
 /*---------------------------------*/
 [class*="__container"] {
     width: 100%;
-    max-width: 1057px;
     margin: 0 auto;
+    /* отступы безопастности */
+    padding: 0px 15px;
+    /* 1057px + 15px + 15px = 1087px */
+    max-width: 1087px;
 }
 
 .header {
