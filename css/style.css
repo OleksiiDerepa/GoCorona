@@ -28,6 +28,8 @@ body {
     max-width: 1087px;
 }
 
+/*---------------------------------*/
+
 .header {
     position: absolute;
     width: 100%;
@@ -56,6 +58,8 @@ body {
     justify-content: flex-end;
 }
 
+/*---------------------------------*/
+
 .menu {
     display: flex;
     justify-content: flex-end;
@@ -81,7 +85,7 @@ body {
     color: #000;
 }
 
-
+/*---------------------------------*/
 
 .button {
     /* наужно указать что это 
@@ -115,6 +119,34 @@ body {
 .button_blue:hover {
     background-color: #70A3F7;
 }
+
+/*---------------------------------*/
+
+.icon-menu {
+    height: 18px;
+
+    flex: 0 0 30px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-menu::before,
+.icon-menu::after {
+    content: "";
+    background-color: #000;
+    height: 2px;
+}
+
+.icon-menu span {
+    height: 2px;
+    background-color: #000;
+}
+
+/*---------------------------------*/
 
 /* PC */
 @media (max-width: 1087px) {
