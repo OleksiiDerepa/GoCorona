@@ -295,10 +295,68 @@ body {
     }
 }
 
-
+/*
+===========================================
+            MAIN -> GET-STARTED
+===========================================
+*/
 
 .main {
     flex: 1 1 auto;
+}
+
+.get-started {
+    background-color: #FAFBFD;
+    padding: 150px 0px 50px 0px;
+}
+
+.get-started__container {
+    /* fb */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-started__content {
+    /* fbg */
+    flex: 0 1 48%;
+    /* pp */
+    padding: 0px 0px 0px 20px;
+}
+
+.get-started__block-text {}
+
+.block-text {}
+
+.block-text__title {}
+
+.block-text__title_blue {}
+
+.block-text__text {}
+
+.block-text__button {}
+
+.get-started__video {}
+
+.video-get-started {
+    flex: 1 1 100%;
+}
+
+.video-get-started__icon {}
+
+.video-get-started__body {}
+
+.video-get-started__title {}
+
+.video-get-started__text {}
+
+.get-started__image {
+    flex: 0 1 52%;
+
+}
+
+.get-started__image img {
+    max-width: 100%;
+
 }
 
 .footer {}
