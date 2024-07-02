@@ -172,7 +172,6 @@ body {
     }
 
     /*---------------------------------*/
-    .close-icon-menu,
     .icon-menu {
         height: 18px;
 
@@ -209,6 +208,10 @@ body {
 
     .close-icon-menu {
         display: none;
+        height: 30px;
+        flex: 0 0 30px;
+        position: relative;
+        margin: 0px 0px 0px 20px;
     }
 
     .close-icon-menu::before,
@@ -216,15 +219,18 @@ body {
         content: "";
         background-color: #000;
         height: 2px;
-        transform-origin: 0 0;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
     }
 
     .close-icon-menu::before {
-        transform: rotate(35deg);
+        transform: rotate(45deg);
     }
 
     .close-icon-menu::after {
-        transform: rotate(-35deg);
+        transform: rotate(-45deg);
     }
 
 
