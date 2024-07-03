@@ -494,19 +494,51 @@ body {
 
 .stay-safe__container {
     display: flex;
+    align-items: center;
 }
 
 .stay-safe__media {
     flex: 1 1 50%;
+    padding: 0px 0px 0px 47px;
 }
-
-.media-stay-safe {}
-
-
-.media-stay-safe__image {}
 
 .stay-safe__content {
     flex: 1 1 50%;
+}
+
+.media-stay-safe {
+    width: 373px;
+    padding: 56px 0px 27px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.media-stay-safe__image {
+    /* для того чтобы блок не 
+    занимал всю ширину а занимал 
+    шинину картинки */
+    display: inline-block;
+    box-shadow: 2px 4px 32px 0 rgba(0, 0, 0, .12);
+    border-radius: 16px;
+    position: relative;
+}
+
+.media-stay-safe__image::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 12px;
+
+    width: 206px;
+    height: 27px;
+
+    border-radius: 16px;
+    background: rgba(240, 240, 240, 0.49);
+}
+
+.media-stay-safe__image img {
+    position: relative;
+    z-index: 2;
 }
 
 .stay-safe__block-text {}
