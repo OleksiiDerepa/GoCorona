@@ -610,13 +610,17 @@ body {
 
 .experts__container {}
 
-.experts__statistics {
+.experts__statistics {}
+
+.experts__block-text {
+    min-width: 400px;
+}
+
+.statistics-experts {
     min-width: 665px;
     margin: 0 auto;
     position: relative;
 }
-
-.statistics-experts {}
 
 .statistics-experts__body {
     background-color: #fff;
@@ -624,6 +628,7 @@ body {
     border-radius: 16px;
     position: relative;
     z-index: 2;
+    margin: 0px 0px 80px 0px;
 }
 
 .body-statistics-experts {
