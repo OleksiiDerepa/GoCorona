@@ -305,6 +305,15 @@ body {
 
 .block-text {}
 
+.block-text_center {
+    text-align: center;
+}
+
+.block-text__text_mw {
+    min-width: 620px;
+    margin: 0 auto;
+}
+
 .block-text__title {
     font-weight: 700;
     font-size: 44px;
@@ -770,5 +779,42 @@ body {
         margin: 0px 0px 15px 0px;
     }
 }
+
+/*
+===========================================
+            MAIN -> HEALTHCARE
+===========================================
+*/
+
+.healthcare {}
+
+.healthcare__container {}
+
+.healthcare__block-text {}
+
+.block-text {}
+
+.block-text_center {}
+
+.block-text__title {}
+
+.block-text__text {}
+
+.block-text__text_mw {}
+
+.healthcare__items {}
+
+.healthcare__item {}
+
+.item-healthcare {}
+
+.item-healthcare__icon {}
+
+.item-healthcare__title {}
+
+.item-healthcare__text {}
+
+
+
 
 .footer {}
