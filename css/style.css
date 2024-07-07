@@ -865,6 +865,7 @@ body {
 .healthcare__column_3 {}
 
 .item-healthcare {
+    height: 100%;
     position: relative;
     z-index: 2;
     background-color: #fff;
