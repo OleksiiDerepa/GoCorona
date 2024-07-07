@@ -893,7 +893,26 @@ body {
     line-height: 138.5%;
 }
 
+/*
+===========================================
+            FOOTER
+===========================================
+*/
 
 
 
-.footer {}
+
+.footer {
+    padding: 45px 0px;
+}
+
+.footer__container {}
+
+.footer__items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__item {}
