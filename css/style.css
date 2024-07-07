@@ -894,14 +894,31 @@ body {
     line-height: 138.5%;
 }
 
+@media (max-width: 1087px) {
+    .healthcare__column {
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .healthcare {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .healthcare__items {
+        flex-direction: column;
+    }
+
+    .healthcare__column:not(:last-child) {
+        margin: 0px 0px 25px 0px;
+    }
+}
+
 /*
 ===========================================
             FOOTER
 ===========================================
 */
-
-
-
 
 .footer {
     padding: 45px 0px;
@@ -911,9 +928,16 @@ body {
 
 .footer__items {
     display: flex;
-    gap: 50px;
+    column-gap: 50px;
+    row-gap: 50px;
     align-items: center;
     justify-content: center;
 }
 
 .footer__item {}
+
+@media (max-width: 500px) {
+    .footer__items {
+        flex-direction: column;
+    }
+}
